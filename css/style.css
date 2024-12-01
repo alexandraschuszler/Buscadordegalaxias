@@ -1,3 +1,40 @@
 main {
     min-height: calc(100vh - 160px);
   }
+
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px; 
+  transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.card-img-top {
+  height: 200px; 
+  object-fit: cover; 
+  border-bottom: 1px solid #ddd;
+}
+
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+.card-footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+}
